@@ -1,13 +1,7 @@
 @ECHO OFF
-:: %~1 - Function to call
-:: %~2 - Target variable reference to store the result
-:: %~3 - Text to display
-call :%~1 %~2,"%~3"
-goto exit
-
 :: ====================================================
 :request_user_yn_input
-:: %~1 - Return variable reference 
+:: %~1 - Target variable reference to store the result
 :: %~2 - Text to display
 SETLOCAL
 
